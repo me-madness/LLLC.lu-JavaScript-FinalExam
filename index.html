@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MY Weather Page</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="./JS/script.js"></script>
+    <link rel="stylesheet" href=".//CSS/style.css">
+</head>
+
+<body>
+    <div id="container">
+        <header>
+            <h1>Welcome to Weather Information</h1>
+        </header>
+        Your City: <input type="text" id="city" placeholder="Weather in your city"> <button id="button" onclick="show_weather()">Show Weather</button>
+        <br>
+        <br>
+        <div id="results"></div>
+
+        <footer id="footer" style="display: none;">Weather is part of our day,<br> so always be prepared for the changes!!!</footer>
+    </div>
+</body>
+
+</html>

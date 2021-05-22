@@ -1,0 +1,23 @@
+#container {
+    height: 850px;
+    background: url('../Image/weather.jpg');
+    text-align: center;
+    padding-bottom: 4%;
+}
+
+#container header {
+    padding-top: 1%;
+    text-align: center;
+    font-family: italic;
+    font-size: 170%;
+}
+
+#container footer {
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 170%;
+}
+
+#results {
+    font-size: 125%;
+}
